@@ -1,2 +1,19 @@
-td {
+td, th {
 border: 1px solid #0088dd;}
+
+div.outer-content{
+	width:75%;
+	background-color: #ee3e80;
+	margin-top: 20px;
+	padding:20px;
+}
+
+div.inner-content{
+	margin:auto;
+	width:75%;
+	background-color: blue;
+}
+
+form{
+	border: 2px solid #000000;
+}
