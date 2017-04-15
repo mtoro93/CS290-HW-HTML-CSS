@@ -7,9 +7,10 @@
   <title>HW Assignment: HTML/CSS</title>
   <link rel="stylesheet" href="style.css">
   </head>
-  <p>This table measures health and nutritional intake for a fictional person.</p>
   <body>
+	<p>6x6 table</p>
     <table>
+		<caption>This table measures health and nutritional intake for a fictional person.</caption>
 		<tr>
 			<th></th>
 			<th>Caloric Intake</th>
@@ -62,5 +63,51 @@
 			<td colspan="2">Footer 1</td>
 			<td colspan="4">Footer 2</td>
 		</tr>
+	</table>
+	<p>List</p>
+	<ul>
+		<li> C++ </li>
+		<li> C </li>
+		<li> Java </li>
+	</ul>
+	<div class="outer content">
+		<div class="inner content"></div>
+	</div>
+	<p>Get Form</p>
+	<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+		<p>Text Input</p>
+		<input type="text" name="text_input"></input>
+		<p>Number Input</p>
+		<input type="number" name="numerical_input"></input>
+		<p>Password Input</p>
+		<input type="password" name="password_input"></input>
+		
+		<p>Radio Input</p>
+		<input type="radio" name="candy" value="Snickers"></input> Snickers
+		<br />
+		<input type="radio" name="candy" value="Skittles"></input> Skittles
+		<br />
+		<input type="radio" name="candy" value="Mentos"></input> Mentos
+		<br />
+		<input type="submit" value="submit"></input>
+	</form>
+	<p>Post Form</p>
+	<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+		<p>Text Input</p>
+		<input type="text" name="text_input"></input>
+		<p>Number Input</p>
+		<input type="number" name="numerical_input"></input>
+		<p>Password Input</p>
+		<input type="password" name="password_input"></input>
+		
+		<p>Radio Input</p>
+		<input type="radio" name="candy" value="Snickers"></input> Snickers
+		<br />
+		<input type="radio" name="candy" value="Skittles"></input> Skittles
+		<br />
+		<input type="radio" name="candy" value="Mentos"></input> Mentos
+		<br />
+		<input type="submit" value="submit"></input>
+	</form>
   </body>
 </html>
